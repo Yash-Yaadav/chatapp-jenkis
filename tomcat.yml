@@ -1,4 +1,4 @@
-- hosts: tomcat
+- hosts: ansiblevm
   become: yes
   tasks:
 
