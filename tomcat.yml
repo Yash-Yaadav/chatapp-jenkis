@@ -16,8 +16,6 @@
       shell: wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.64/bin/apache-tomcat-9.0.64.tar.gz    
       args:
         chdir: /tmp
-    - name: Creating Apache Tomcat home directory.
-      command: mkdir /opt/tomcat
       
     - name: Extracting Apache Tomcat.
       shell: tar -xzvf /tmp/apache-tomcat-9*tar.gz -C /opt/tomcat --strip-components=1
